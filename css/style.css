@@ -2,35 +2,70 @@ body {
 
 }
 
+.mainTop {
+	margin-top: 20px;
+	background-image: url('../images/background1.jpg');
+	width: 100%;
+	border-radius: 1%;
+}
+
+.statement {
+	font-style: italic;
+	width: 60%;
+	padding-bottom: 20px;
+	margin: auto;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
 .bg{
-	background-color: lightgray;
+	background-color: hsla(0, 0%, 0%, 0.5);
 	margin-top: 10px;
+	width: 100%;
 }
 
 .bg h3 {
+	text-align: center;
 	font-weight: bold;
+	color: white;
 }
 
 .bg p {
+	text-align: center;
 	font-style: italic;
 	color: steelblue;
+	width: 60%;
+	margin: auto;
 }
 
 .btn {
 	width: 140px;
 }
 
-.mainTop {
-	margin-top: 10px;
+.mainLeftCol {
+	padding-top: 10px;
+	overflow: hidden;
+	height: 100%;
 }
 
-.statement {
-	margin-top: 20px;
-	margin-bottom: 40px;
-	font-style: italic;
-	width: 80%;
-	margin: auto;
+.mainCenterCol {
+	border: solid 2px red;
+	overflow: hidden;
 }
+
+.mainRightCol {
+	padding-top: 10px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.page1 {
+	width: 99%;	
+	margin: auto;
+	margin-bottom: 150px;
+}
+
+
 
 .serv {
 	color: steelblue;
@@ -40,22 +75,24 @@ body {
 
 .colArea {
 	height: 170px;
-	overflow: auto;
 	margin: auto;
+	background-color: white;
+	max-width: 250px;
 }
 
 .underline {
 	border-bottom: 2px solid steelblue;
 }
 
+.deals{
+	width: 90%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
 .page2 {
 	margin-top: 35px;
 }
-
-
-
-
-
 
 
 
