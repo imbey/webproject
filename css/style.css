@@ -1,5 +1,4 @@
 body {
-
 }
 
 .mainTop {
@@ -40,65 +39,105 @@ body {
 
 .btn {
 	width: 140px;
-}
-
-.mainLeftCol {
-	padding-top: 10px;
-	overflow: hidden;
-	height: 100%;
-}
+} 
 
 .mainCenterCol {
-	border: solid 2px red;
-	overflow: hidden;
-}
-
-.mainRightCol {
-	padding-top: 10px;
-	overflow: hidden;
-	height: 100%;
+	width: 65%;
+	background-color: white;
 }
 
 .page1 {
 	width: 99%;	
 	margin: auto;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
-
-
-.serv {
-	color: steelblue;
-	border-bottom: 2px solid steelblue;
-	margin-bottom: 10px;
+.underline {
+	width: 90%;
+	margin-top: 2%;
 }
 
 .colArea {
-	height: 170px;
+	height: 150px;
 	margin: auto;
 	background-color: white;
 	max-width: 250px;
 }
 
-.underline {
-	border-bottom: 2px solid steelblue;
+.deals {
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	background-color: white;
 }
 
-.deals{
+.deals1 h2 {
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	color: steelblue;
+}
+
+.deals2 h4 {
+	text-align: center;
+	font-style: italic;
+	color: steelblue;
+
+}
+
+.competition {
+	margin: auto;
+	margin-top: 20px;
+	width: 80%;
+}
+
+.win1,
+.win2,
+.win3 {
+	margin-top: 30px;
+	background-color:white;
+}
+
+.sidelist {
+	max-width: 80px;
+}
+
+.hotdeals {
+	text-align: center;
+	font-weight: bold;
+	color: red;
+}
+
+.dealstable {
+	margin: auto;
+	width: 80%;
+}
+
+.tblLeft {
+	text-align: left;
+}
+
+.tblCtr {
+	text-align: center;
+}
+
+.tblRight {
+	text-align: right;
+}
+
+.logobar {
 	width: 90%;
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.logobaricons {
+	max-width: 100px;
 }
 
 .page2 {
 	margin-top: 35px;
 }
-
-
-
-
-
-
 
 /* footer */
 .subbtn {
@@ -106,6 +145,7 @@ body {
 }
 
 .ftr {
-	border-top: 3px solid gray;
+	border-top: 4px solid gray;
+	margin-bottom: 0px;
 }
 
