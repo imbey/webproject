@@ -5,7 +5,6 @@ body {
 	margin-top: 20px;
 	background-image: url('../images/background1.jpg');
 	width: 100%;
-	border-radius: 1%;
 }
 
 .statement {
@@ -21,16 +20,15 @@ body {
 	background-color: hsla(0, 0%, 0%, 0.5);
 	margin-top: 10px;
 	width: 100%;
+	text-align: center;
 }
 
 .bg h3 {
-	text-align: center;
 	font-weight: bold;
 	color: white;
 }
 
 .bg p {
-	text-align: center;
 	font-style: italic;
 	color: steelblue;
 	width: 60%;
@@ -43,7 +41,6 @@ body {
 
 .mainCenterCol {
 	width: 65%;
-	background-color: white;
 }
 
 .page1 {
@@ -54,7 +51,7 @@ body {
 
 .underline {
 	width: 90%;
-	margin-top: 2%;
+	margin-top: 20px;
 }
 
 .colArea {
@@ -68,38 +65,20 @@ body {
 	width: 80%;
 	margin: auto;
 	margin-top: 30px;
+	font-style: italic;
 	background-color: white;
+	color: steelblue;
+	text-align: center;
 }
 
 .deals1 h2 {
 	font-weight: bold;
-	font-style: italic;
-	text-align: center;
-	color: steelblue;
-}
-
-.deals2 h4 {
-	text-align: center;
-	font-style: italic;
-	color: steelblue;
-
 }
 
 .competition {
 	margin: auto;
 	margin-top: 20px;
 	width: 80%;
-}
-
-.win1,
-.win2,
-.win3 {
-	margin-top: 30px;
-	background-color:white;
-}
-
-.sidelist {
-	max-width: 80px;
 }
 
 .hotdeals {
@@ -111,10 +90,6 @@ body {
 .dealstable {
 	margin: auto;
 	width: 80%;
-}
-
-.tblLeft {
-	text-align: left;
 }
 
 .tblCtr {
@@ -131,13 +106,6 @@ body {
 	margin-bottom: 10px;
 }
 
-.logobaricons {
-	max-width: 100px;
-}
-
-.page2 {
-	margin-top: 35px;
-}
 
 /* footer */
 .subbtn {
